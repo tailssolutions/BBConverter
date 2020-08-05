@@ -1,0 +1,199 @@
+﻿page, body {   font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.page_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 160%;
+  padding: 0.25em;
+  background-color: #f1b82d; /*Mizzou Gold*/
+}
+
+/* table for roster */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.25em;
+}
+
+table { margin-top: 1em; }
+
+th {
+  background-color: #f1b82d; /*Mizzou Gold*/
+} 
+
+.roster {
+  margin-left: 1em;
+  margin-bottom:1em;
+  padding-bottom:.5em;
+}
+
+/* for outcomes */
+
+.empty { font-style: italic; }
+
+.course_info {
+  margin: 1em;
+}
+.ci_title { 
+  padding: 0.5em;
+  font-size: 110%;
+  background-color: #d7d7d7; /*Mizzou Light Gray*/
+  text-align: center;
+  font-weight: bold;
+}
+
+.course_details { 
+  margin-left: 1em;
+  padding: 0.5em;
+  column-count: 3; 
+  font-size: 80%;
+}
+
+.cd_archive, .cd_created, .cd_updated, .cd_start, .cd_end, .cd_exported  {
+   padding-top: 0.25em;
+}
+
+/*outcome_definitions*/
+.ocd .discussion {
+  margin-left: 1em;
+	margin-bottom:1em;
+}
+
+.ocd_title, .roster_title { 
+  font-size: 120%;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background-color: #f1b82d; /*Mizzou Gold*/
+  margin-right: 0.75em;
+}
+
+.ocd_info .discussion_info {
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  margin-left: 1em;
+  padding: 0.25em;
+  column-count: 3;
+  font-size: 80%;
+}
+
+.ocd_content {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  padding: 0.25em;
+}
+
+.ocAttribute { 
+  padding-left: 0.75em;
+  color: #888888;
+  font-size: 70%;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.outcomes, .roster_body { 
+  margin-left: 0.5em;
+  margin-right: 1.25em;
+  display: none;
+}
+
+.oc { 
+  margin: 0.25em;
+  padding: 0.25em;
+  font-size: 90%;
+}
+
+.user_info { 
+  padding: 0.25em 1em 0.25em 1em;
+  background-color: #d7d7d7; /*Mizzou Light Gray*/
+  column-count: 4;
+}
+
+/*attempts*/
+.at {   border: 1px solid #d7d7d7; /*Mizzou Light Gray*/ }
+
+.at_details {
+  padding: 0.25em 1em 0.25em 1em;
+  column-count: 4;
+}
+
+.atd_exempt { color: darkgray; }
+
+.at_comments {
+  padding: 0.25em 1em 0.25em 1em;
+}
+
+.atc_icom, .atc_scom, .atc_inote {
+	border-top: 1px solid #d7d7d7; /*Mizzou Light Gray*/
+  padding-top: 0.25em;
+}
+
+.at_files {
+   margin-top: 0.5em; 
+   padding: 0.25em 1em 0.25em 1em;
+}
+.atf {
+  border-top: 1px solid #d7d7d7; /*Mizzou Light Gray*/
+  padding-top: 0.25em;
+}
+
+.notes {
+  margin: 1em;
+  font-style: italic;
+}
+
+.messages {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  padding: 0.25em;
+  display: none;
+}
+
+.message {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  padding: 0.25em;
+  border: #888888;
+  border-style: solid;
+}
+
+.message_text {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  padding: 0.25em;
+}
+
+.message_title {
+  font-size: 90%;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background-color: #f1b82d; /*Mizzou Gold*/
+  /*margin-right: 0.75em;*/
+}
+
+.message_info {
+  font-size: 90%;
+  padding-left: 1em;
+  margin-right: 0.75em;
+}
+
+.discussion_title { 
+  font-size: 120%;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background-color: #f1b82d; /*Mizzou Gold*/
+  margin-right: 0.75em;
+  border-style: solid;
+  border: #888888;
+}
+
+.discussion_description {
+  margin-top: 0.5em;
+  margin-left: 2em;
+  padding: 0.25em;
+}
